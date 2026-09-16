@@ -4,7 +4,7 @@ import requests
 import telebot
 from datetime import datetime
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "").strip()
+BOT_TOKEN = "8949808593:AAEXTRsl8Nu6X1x3CjXJLNDyb71zKVKCGWY"
 CMC_API_KEY = os.environ.get("CMC_API_KEY", "").strip()
 CHANNEL_ID = os.environ.get("CHANNEL_ID", "").strip()
 
