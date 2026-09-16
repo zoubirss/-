@@ -83,9 +83,8 @@ def manual(message):
     send_report()
 
 # إرسال تقرير كل 4 ساعات
-if name == "main":
+if  __name__ == "__main__":
     print("=== BOT STARTED ===")
-    # إرسال تقرير فوري عند البدء
     send_report()
     while True:
         time.sleep(4 * 60 * 60)
